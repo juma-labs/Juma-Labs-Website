@@ -1,0 +1,15 @@
+.principles{
+	margin-top:40px;
+}
+.principles .principle{
+	margin:10px 0;
+	padding:10px 20px 20px 10px;
+}
+.principles .principle h2{
+	margin-bottom:4px;
+	color:#11A069;
+	font-weight:normal;
+}
+.principles .principle p{
+	max-width:500px;
+}

@@ -1,0 +1,28 @@
+.about {
+  display: block;
+  float: left;
+  padding: 50px 25px;
+  width: 250px;
+}
+.about img {
+  display: block;
+  margin: auto;
+  width: 152px;
+  border: solid 1px #11a069;
+  -webkit-box-shadow: 0 0 2px 1px #aaa;
+  box-shadow: 0 0 2px 1px #aaa;
+}
+.about .name,
+.about .position {
+  text-align: center;
+}
+.about .name {
+  margin-top: 8px;
+  padding: 4px 0;
+  color:#11A069;
+}
+.about .position {
+  margin-top: 0px;
+  padding: 2px 0;
+  color: #333;
+}
