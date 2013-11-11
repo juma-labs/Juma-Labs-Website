@@ -1,39 +1,37 @@
 server {
-<<<<<<< HEAD
-	listen   80; ## listen for ipv4; this line is default and implied
+listen   80; ## listen for ipv4; this line is default and implied
 
-	root /var/www/JumaLabsWebsite;
-	index /pages/index.html;
+root /var/www/JumaLabsWebsite;
+index /pages/index.html;
 
-	server_name www.jumalabs.com;
+server_name www.jumalabs.com;
 
-	location / {
-		root /var/www/JumaLabsWebsite;
-		try_files $uri index.html @pages;
-	}
-	location @pages{
-		rewrite	^/(.+)$ /pages/$1.html last;
-	}
-	location /robots.txt{
-		root /var/www/JumaLabsWebsite;
-	}
-=======
-        listen   80; ## listen for ipv4; this line is default and implied
+location / {
+root /var/www/JumaLabsWebsite;
+try_files $uri index.html @pages;
+}
+location @pages{
+rewrite	^/(.+)$ /pages/$1.html last;
+}
+location /robots.txt{
+root /var/www/JumaLabsWebsite;
+}
 
-        root /var/www/JumaLabsWebsite;
-        index /pages/index.html;
+listen   80; ## listen for ipv4; this line is default and implied
 
-        server_name www.jumalabs.com;
+root /var/www/JumaLabsWebsite;
+index /pages/index.html;
 
-        location / {
-                root /var/www/JumaLabsWebsite;
-                try_files $uri index.html @pages;
-        }
-        location @pages{
-                rewrite ^/(.+)$ /pages/$1.html last;
-        }
-        location /robots.txt{
-                root /var/www/JumaLabsWebsite;
-        }
->>>>>>> 3a3437a0bbc31b826c1d4899b7ebcf986b431703
+server_name www.jumalabs.com;
+
+location / {
+root /var/www/JumaLabsWebsite;
+try_files $uri index.html @pages;
+}
+location @pages{
+rewrite ^/(.+)$ /pages/$1.html last;
+}
+location /robots.txt{
+root /var/www/JumaLabsWebsite;
+}
 }
