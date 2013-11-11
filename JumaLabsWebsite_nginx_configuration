@@ -6,6 +6,12 @@ index /pages/index.html;
 
 server_name www.jumalabs.com;
 
+gzip      on;
+gzip_vary on;
+gzip_proxied any;
+gzip_types text/plain text/css application/json application/javascript application/x-javascript text/javascript text/xml application/xml application/rss+xml application/atom+xml application/rdf+xml;
+gzip_disable "MSIE [1-6]\.(?!.*SV1)";
+
 location / {
 root /var/www/JumaLabsWebsite;
 try_files $uri index.html @pages;
