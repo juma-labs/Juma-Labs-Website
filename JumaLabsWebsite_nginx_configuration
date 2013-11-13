@@ -1,5 +1,5 @@
 server {
-listen   80; ## listen for ipv4; this line is default and implied
+listen   80;
 
 root /var/www/JumaLabsWebsite;
 index /pages/index.html;
@@ -22,4 +22,8 @@ rewrite	^/(.+)$ /pages/$1.html last;
 location /robots.txt{
 root /var/www/JumaLabsWebsite;
 }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9a7d642063b68e3090a1ae98032379d558d23982
