@@ -22,8 +22,4 @@ rewrite	^/(.+)$ /pages/$1.html last;
 location /robots.txt{
 root /var/www/JumaLabsWebsite;
 }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 9a7d642063b68e3090a1ae98032379d558d23982
