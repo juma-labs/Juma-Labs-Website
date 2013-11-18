@@ -284,6 +284,11 @@ a.button {
   font-size: 16px;
   line-height: 50px;
 }
+/* set auto width on the sign up step's text, so that
+the sign-up button doesn't overflow */
+.steps-container .steps .step.sign-up .text{
+  width:auto;
+}
 .steps-container .steps .step .icon {
   display: block;
   float: right;
@@ -365,13 +370,6 @@ a.button {
   display: Block;
   clear: Both;
   content: '';
-}
-.sign-up {
-  padding-bottom: 15px;
-}
-.sign-up .free {
-  padding-left: 5px;
-  line-height: 53px;
 }
 .login-link-container {
   border-top: solid 1px #CCC;
