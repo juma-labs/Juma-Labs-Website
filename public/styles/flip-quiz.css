@@ -277,7 +277,7 @@ a.button {
   line-height: 48px;
 }
 .steps-container .steps .step .text {
-  display: Block;
+  display: block;
   float: left;
   padding-left: 30px;
   width: 350px;
@@ -367,8 +367,8 @@ the sign-up button doesn't overflow */
   border-bottom: solid 1px #ddd;
 }
 .steps-container .steps .step:after {
-  display: Block;
-  clear: Both;
+  display: block;
+  clear: both;
   content: '';
 }
 .login-link-container {
