@@ -22,4 +22,7 @@ rewrite	^/(.+)$ /pages/$1.html last;
 location /robots.txt{
 root /var/www/JumaLabsWebsite;
 }
+location /kickstarter{
+return 301 http://www.indiegogo.com/projects/juma-labs-the-future-of-education;
+}
 }
