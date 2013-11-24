@@ -1,0 +1,20 @@
+.product-container{
+	border-bottom:solid 1px #EEE;
+	padding:15px 0;
+	margin-bottom:15px;
+}
+.product-container .product-title{
+	font-size:24px;
+	color:#11A069;
+	text-decoration:none;
+}
+.product-container .product-title:hover{
+	color:#0C734C;
+}
+.product-container .product-description{
+	font-size:18px;
+	color:#555;
+}
+.stay-tuned{
+	color:#777;
+}
