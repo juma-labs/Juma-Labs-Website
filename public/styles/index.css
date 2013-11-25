@@ -1,6 +1,6 @@
 .banner{
-	background-color: rgba(0,0,0,0.1);
 	padding: 8px 16px;
+	background-color: rgba(0,0,0,0.1);
 }
 @media(max-width:959px) {
 	.pitch-and-image-container {
@@ -94,10 +94,43 @@
 	text-shadow: 0 0 1px #333;
 	font-size: 20px;
 }
-
+.upcoming-products ul li .number.completed{
+	position:relative;
+	top:15px;
+}
+.upcoming-products ul li .completed-text{
+	margin-left:76px;
+}
+.upcoming-products ul li .completed-text a{
+	color:#11A069;
+	text-decoration:none;
+}
+.upcoming-products ul li .completed-text a:hover{
+	text-decoration:underline;
+}
 .upcoming-products .contact-us {
 	padding-top: 25px;
 	padding-left: 75px;
 	color: #333;
 	font-style: italic;
+}
+.find-us-on-facebook{
+	margin: 25px auto 25px auto;
+	padding: 25px;
+	width: 425px;
+	border-top: solid 1px #ccc;
+}
+.find-us-on-facebook .find-us-on-facebook-logo,
+.find-us-on-facebook .find-us-on-facebook-link{
+	float:left;
+}
+.find-us-on-facebook .find-us-on-facebook-link{
+	font-size:20px;
+	margin-left:25px;
+	color:#11A069;
+	line-height:41px;
+	text-decoration:none;
+}
+.find-us-on-facebook .find-us-on-facebook-link:hover{
+	color:#405889;
 }
