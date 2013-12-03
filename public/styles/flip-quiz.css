@@ -198,18 +198,15 @@ a.button {
   }
 }
 .hero {
-  margin: 40px 0 75px -15px;
-  padding: 15px;
+  margin:0 0 75px -15px;
+  padding:100px 15px 15px 15px;
   width: 100%;
   background-color: #EEE;
 }
 .ribbon {
   position: relative;
   margin: 2em auto 3em;
-  /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
   padding: 1em 2em;
-  /* Adjust to suit */
-  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
   width: 495px;
   background: #08AA69;
   color: #fff;
@@ -284,8 +281,6 @@ a.button {
   font-size: 16px;
   line-height: 50px;
 }
-/* set auto width on the sign up step's text, so that
-the sign-up button doesn't overflow */
 .steps-container .steps .step.sign-up .text{
   width:auto;
 }
