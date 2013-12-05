@@ -9,10 +9,6 @@ html,
 body {
   height: 100%;
 }
-html,
-body {
-  height: 100%;
-}
 .wrapper {
   margin: 0 auto -73px;
   min-height: 100%;

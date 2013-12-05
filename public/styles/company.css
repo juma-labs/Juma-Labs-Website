@@ -89,6 +89,10 @@
 .articles{
 	padding:15px 50px;
 }
+.articles .article{
+	padding:5px 0;
+	margin-bottom:10px;
+}
 .articles .article:after{
 	display:block;
 	content:'';
