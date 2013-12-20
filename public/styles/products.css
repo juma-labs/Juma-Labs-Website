@@ -24,20 +24,43 @@
 	font-weight:normal;
 	font-size:26px;
 }
-.products{
-	margin:15px 20px 15px 40px;
+.products:after{
+	display:block;
+	clear:both;
+	content:'';
 }
-.products .product .title,
-.products .product .description{
-	padding:0;
+.products .product {
+	float:left;
+	margin:25px;
+	width: 350px;
+	-webkit-transition: box-shadow 0.5s;
+	-moz-transition: box-shadow 0.5s;
+	-ms-transition: box-shadow 0.5s;
+	-o-transition: box-shadow 0.5s;
+	transition: box-shadow 0.5s;
 }
-.products .product .title{
-	font-size:32px;
-	color:#11A069;
+.products .product:hover {
+	-webkit-box-shadow: 0 0 3px 2px #DDD;
+	box-shadow: 0 0 3px 2px #DDD;
 }
-.products .product .title:hover{
-	text-decoration:underline;
+.products .product .title,.products .product .description {
+	display: block;
+	padding: 10px 25px;
 }
-.products .product .description{
-	font-size:24px;
+.products .product .title {
+	background-color: #11A069;
+	color: #FFF;
+	font-size: 32px;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-ms-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+.products .product .title:hover {
+	background-color: #0F8A5B;
+}
+.products .product .description {
+	background-color: #EEE;
+	font-size: 24px;
 }
